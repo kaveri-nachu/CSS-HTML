@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+ <html> 
+ <head> <title> Border img </title> 
+ <style>
+ 
+ div{
+ border:15px solid transparent; width:250px; padding:10px 20px;
+ } 
+ 
+ #tiled { 
+ border-image:url(sm.jpg) 30 30 round; 
+ } 
+ 
+ #stretch {
+ border-image:url(sm.jpg) 30 30 stretch;
+ } 
+ 
+ </style>
+ </head>
+ <body>
+ <p> The border-image property specifies an image to be used as a border. </p>
+ 
+ <div id="tiled"> Here, the image is tiled (repeated) to fill the area </div> <br>
+ 
+ <div id="stretch"> Here, the image is stretched to fill the area </div>
+ 
+ <p> Image that was used for demonstration : </p> 
+ 
+ <img src="Sm.jpg"> 
+ 
+ </body> 
+ </html>
