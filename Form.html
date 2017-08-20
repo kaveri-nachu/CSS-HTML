@@ -3,20 +3,37 @@
 <head>
 <title> Page </title>
 <style>
+
 body 
 {background-color:pink;background-image:url("sm1.jpg");
 background-repeat:no-repeat;background-position:right top;
 }
+
 </style>
-<form action="http://www.sololearn.com" target="_blank"> 
-Username <br> <input type="text"/> <br> <br>
-Password <br> <input type="password"/> <br> <br>
-Gender <br>  <input type="radio" name="Male"/> Male <br> 
-<input type="radio" name="Female"/> Female <br> <br>
-Email <br> <input type="text"/> <br> <br>
-<input type="submit" value="submit"/> </p> <br> <br>
+<form action="http://www.sololearn.com" target="_blank" autocomplete="off">
+
+UserName <br> <input type="text" required placeholder="Your Name" /> <br> <br>
+
+Password <br> <input type="password" required /> <br> <br>
+
+Gender   <br>  <input type="radio" /> Male <br> 
+               <input type="radio" /> Female <br> <br>
+
+Email    <br>  <input id="email" type="text" required list="email id" placeholder="email@example" autofocus /> 
+<datalist id="email id">
+<option value="kaveri.nachammai@gmail.com">
+<option value="kaveri.nachammaiece@ksrce.ac.in">
+</datalist> <br> <br> 
+
+Mobile No <br>  <input type="text" required placeholder="8220617882"/> <br> <br> <br>
+
+ <!--Search <br> <input id="MySearch" type="search"/> </br> </br>-->
+
+<input type="submit" value="submit"/>  <br> <br>
 </form>
-<footer> Copyright </footer>
+
+<!--<footer> Copyright </footer>-->
+
 </body>
 </head>
 </html>
