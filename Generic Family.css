@@ -1,0 +1,32 @@
+div.text {
+	text-align:center; color:brown;font-style:oblique; font-weight:bolder;  font-variant:small-caps; height:150px; width:300px; display:inline-table; background-color:lightskyblue; 
+}
+
+p.serif {
+   font-family: "Times New Roman", Times, serif; color:green; font-size:small; font-style:italic; 
+}
+
+p.sansserif {
+   font-family: Helvetica, Arial, sans-serif; color:blue; font-size:medium; font-style:oblique; 
+}
+
+p.monospace {
+   font-family: "Courier New", Courier, monospace; color:magenta; font-size:large; font-style:italic; font-weight:bold; display:table-cell; 
+}
+
+p.cursive {
+   font-family: Florence, cursive; color:orange; font-size:x-large; font-style:oblique; text-decoration:blink;
+}
+
+td.top {
+   vertical-align: top;
+}
+
+td.middle {
+   vertical-align: middle;
+}
+
+td.bottom {
+   vertical-align: bottom;
+}
+
