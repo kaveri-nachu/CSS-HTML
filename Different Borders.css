@@ -1,0 +1,29 @@
+
+p.dotted {
+	       border-style: dotted; color:red; max-width:100px; pa
+  	     }
+
+p.dashed {
+	       border-style: dashed; color:white; min-height:100px; background-image:url("sm.jpg"); padding:20px;
+	     }
+
+p.double {
+	       border-style: double; color:darkblue;
+	     }
+
+p.groove {
+	       border-style: groove; color:brown;
+	     }
+
+p.ridge  {
+	        border-style: ridge; color:magenta;
+	     }
+
+p.inset  {
+	        border-style: inset; color:blue;
+	     }
+
+p.outset {
+	        border-style: outset; color:darkorange;
+	     }
+		 

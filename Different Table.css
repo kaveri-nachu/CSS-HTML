@@ -1,0 +1,20 @@
+table     {
+            border-collapse: separate;
+            border-spacing: 20px 40px;
+          }
+	  
+a:link    {
+            text-decoration: none;color:magenta;
+          }
+	  
+a:hover   { 
+             color:red;
+          }  
+
+a:active  {  
+	         color:green;
+          }
+		
+a:visited {		
+	         color:blue;
+          }
