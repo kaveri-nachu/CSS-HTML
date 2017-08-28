@@ -1,0 +1,31 @@
+body.main        {
+                   background:url("sm1.jpg");
+                 }
+
+nav.next         {
+                   padding: 50px 0;
+                   min-width: 500px; 
+                 }
+
+nav ul.n1        {
+                   background: linear-gradient(90deg, 
+                   rgba(255, 255, 255, 0) 0%, 
+                   rgba(255, 255, 255, 0.2) 25%, 
+                   rgba(255, 255, 255, 0.2) 75%, 
+                   rgba(255, 255, 255, 0) 100%);
+                   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+                   inset 0 0 1px rgba(255, 255, 255, 0.6);
+                 }
+
+nav ul li.n2     {
+                   display: inline-block;
+                 }
+
+nav ul li a.n3   {
+                   padding: 10px; 
+                   color: #FFFFFF;
+                   font-size: 18px;
+                   font-family: Arial;
+                   text-decoration: none;
+                   display: block;
+            }

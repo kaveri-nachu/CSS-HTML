@@ -1,0 +1,18 @@
+parent p:first-child {
+                        color: green;
+                        text-decoration: underline;   
+                      }
+
+#parent p:last-child  {
+                         color: blue;
+                         text-decoration: underline;   
+                      }
+					  
+p::first-line         {
+                         color: blue;
+                      }
+					  
+p::selection     {
+                         background: blue;
+                         color: white;
+                      }
