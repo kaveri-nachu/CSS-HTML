@@ -1,0 +1,20 @@
+div.first  {
+    height: 150px;
+    width: 200px;
+    color: white;
+	margin:14px;
+	padding:10px;
+    background: -moz-radial-gradient(top left, green, yellow, blue);   
+    background: -webkit-radial-gradient(top left, green, yellow, blue);
+    background: -ms-radial-gradient(top left, green, yellow, blue);
+           }
+div.second {
+    height: 150px;
+    width: 200px;
+    color: white;
+	margin:14px;
+	padding:10px;
+    background: -moz-radial-gradient(green 5%, yellow 15%, blue 60%); 
+    background: -webkit-radial-gradient(green 5%, yellow 15%, blue 60%); 
+    background: -ms-radial-gradient(green 5%, yellow 15%, blue 60%); 
+           }
